@@ -1,0 +1,19 @@
+<h1>Login to your account</h1>
+<h2>Enter your phone number and password</h2>
+
+<div class="formWrapper">
+    <form action="/api/tokens" method="post" id="sessionCreate">
+        <div class="formError"></div>
+        <div class="inputWrapper">
+            <div class="inputLabel">Phone Number</div>
+            <input type="text" name="phone" placeholder="0123456789" />
+        </div>
+        <div class="inputWrapper">
+            <div class="inputLabel">Your Password</div>
+            <input type="password" name="password" placeholder="************" />
+        </div>
+        <div class="inputWrapper ctaWrapper">
+            <button type="submit" class="cta blue">Login</button>
+        </div>
+    </form>
+</div>
